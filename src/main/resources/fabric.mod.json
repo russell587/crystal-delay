@@ -3,6 +3,12 @@
   "id": "crystaldelay",
   "version": "1.0.0",
   "name": "Crystal Delay Mod",
+  "description": "Adds a 1 tick delay when breaking crystals.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -13,8 +19,8 @@
     "crystaldelay.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
-    "minecraft": ">=1.20",
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.2",
     "fabric-api": "*"
   }
 }
