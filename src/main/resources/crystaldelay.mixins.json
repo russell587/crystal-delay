@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "com.example.crystaldelay",
-  "compatibilityLevel": "JAVA_25",
+  "compatibilityLevel": "JAVA_27",
   "client": [
     "CrystalDelayMod$PacketAccessor",
     "CrystalDelayMod$ConnectionMixin"
