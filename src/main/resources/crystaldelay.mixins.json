@@ -1,11 +1,8 @@
 {
-  "required": true,
-  "package": "com.example.crystaldelay",
+  "required": false,
+  "package": "com.example.client",
   "compatibilityLevel": "JAVA_21",
-  "client": [
-    "CrystalDelayMod$PacketAccessor",
-    "CrystalDelayMod$ConnectionMixin"
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
