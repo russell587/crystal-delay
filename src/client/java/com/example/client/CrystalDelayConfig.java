@@ -15,7 +15,7 @@ public final class CrystalDelayConfig {
             .getConfigDir()
             .resolve("crystaldelay.json");
 
-    public static final int DEFAULT_DELAY_MS = 50;
+    public static final int DEFAULT_DELAY_MS = 25;
     public static final int MIN_DELAY_MS = 0;
     public static final int MAX_DELAY_MS = 1000;
 
