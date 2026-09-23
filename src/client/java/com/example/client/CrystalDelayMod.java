@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 public class CrystalDelayMod implements ClientModInitializer {
     public static final String MOD_ID = "crystaldelay";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final long SECOND_CRYSTAL_DELAY_MS = 250L;
 
     @Override
     public void onInitializeClient() {
