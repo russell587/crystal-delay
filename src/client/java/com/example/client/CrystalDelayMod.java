@@ -11,6 +11,7 @@ public class CrystalDelayMod implements ClientModInitializer {
     public static final String MOD_ID = "crystaldelay";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     public static final long SECOND_CRYSTAL_DELAY_MS = 250L;
+    public static final long RESET_INTERVAL_MS = 3000L;
 
     @Override
     public void onInitializeClient() {
