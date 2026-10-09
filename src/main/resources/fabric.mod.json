@@ -1,23 +1,19 @@
-{
-  "schemaVersion": 1,
-  "id": "crystaldelay",
-  "version": "1.0.0",
-  "name": "Crystal Delay Mod",
-  "description": "Adds a 1 tick delay when breaking crystals.",
-  "authors": [
-    "orca_pvp"
-  ],
-  "contact": {},
-  "license": "MIT",
-  "environment": "client",
-  "entrypoints": {
-    "client": [
-      "com.example.client.CrystalDelayMod"
-    ]
-  },
-  "depends": {
-    "fabricloader": ">=0.19.0",
-    "minecraft": ">=1.21.11 <=26.2",
-    "fabric-api": "*"
-  }
-}
+# Done to increase the memory available to gradle.
+org.gradle.jvmargs=-Xmx1G
+org.gradle.parallel=true
+
+# IntelliJ IDEA is not yet fully compatible with configuration cache, see: https://github.com/FabricMC/fabric-loom/issues/1349
+org.gradle.configuration-cache=false
+
+# Fabric Properties
+# check these on https://fabricmc.net/develop
+minecraft_version=1.21.11
+loader_version=0.18.1
+loom_version=1.6.4
+
+# Mod Properties
+version=26.2
+group=com.example
+
+# Dependencies
+fabric_api_version=0.140.2+1.21.11
